@@ -16,6 +16,7 @@ while opcion!='4':
        print (lista_super)
        print ("elemento que deseas eliminar: ")
        eli=input()
+       lista_super.append(eli)
        try:
            lista_super.remove(str(eli))
        except ValueError:
